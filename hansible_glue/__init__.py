@@ -7,7 +7,7 @@ from ansible.release import __version__
 def version_ok():
     return __version__.startswith('2.12')
 
-def run_playbook(_pb: str, _limit: str|None = None, _tags: str|None = None):
+def run_playbook(_pb, _limit = None, _tags = None):
     if not version_ok():
         print('Ansible version not OK!')
         return -1
