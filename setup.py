@@ -3,7 +3,7 @@ import setuptools
 
 setup(
     name='hansible-glue',
-    version='0.0.0-dev',
+    version='0.1.0',
     author="Jonas Gunz",
     author_mail="himself@jonasgunz.de",
     description="Python glue for hansible",
@@ -11,6 +11,7 @@ setup(
     install_requires=[
         "ansible>=2.12",
     ],
+    license='GPL3',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     classifiers=[
