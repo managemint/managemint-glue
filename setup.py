@@ -11,6 +11,7 @@ setup(
     install_requires=[
         "ansible>=2.12",
     ],
+    license='GPL3',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     classifiers=[
