@@ -2,11 +2,11 @@ from distutils.core import setup
 import setuptools
 
 setup(
-    name='hansible-glue',
-    version='0.0.0-dev',
+    name='managemint-glue',
+    version='0.0.1',
     author="Jonas Gunz",
     author_mail="himself@jonasgunz.de",
-    description="Python glue for hansible",
+    description="Python glue for managemint",
     packages=setuptools.find_packages(),
     install_requires=[
         "ansible>=2.12",
